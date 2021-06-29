@@ -800,6 +800,116 @@
       "ids": {},
       "registry_name": "tin_block_crafting",
       "path": "~/Recipes_All"
+    },
+    {
+      "name": "HyAluminumore",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hy_aluminumore",
+      "path": "~/Ore_Blocks/High yeiling ore"
+    },
+    {
+      "name": "HyCopperOre",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hy_copper_ore",
+      "path": "~/Ore_Blocks/High yeiling ore"
+    },
+    {
+      "name": "HyIridiumOre",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hy_iridium_ore",
+      "path": "~/Ore_Blocks/High yeiling ore"
+    },
+    {
+      "name": "HyLeadOre",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hy_lead_ore",
+      "path": "~/Ore_Blocks/High yeiling ore"
+    },
+    {
+      "name": "HyManainfusedOre",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hy_manainfused_ore",
+      "path": "~/Ore_Blocks/High yeiling ore"
+    },
+    {
+      "name": "HyNickelOre",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hy_nickel_ore",
+      "path": "~/Ore_Blocks/High yeiling ore"
+    },
+    {
+      "name": "HyPlatinumOre",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hy_platinum_ore",
+      "path": "~/Ore_Blocks/High yeiling ore"
+    },
+    {
+      "name": "HySilverOre",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hy_silver_ore",
+      "path": "~/Ore_Blocks/High yeiling ore"
+    },
+    {
+      "name": "HyTinore",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hy_tinore",
+      "path": "~/Ore_Blocks/High yeiling ore"
+    },
+    {
+      "name": "HyIronOre",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hy_iron_ore",
+      "path": "~/Ore_Blocks/High yeiling ore"
+    },
+    {
+      "name": "HyGoldOre",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hy_gold_ore",
+      "path": "~/Ore_Blocks/High yeiling ore"
     }
   ],
   "variable_elements": [],
@@ -808,16 +918,23 @@
     "en_us": {
       "block.moreores.iridium_ore": "Iridium Ore",
       "block.moreores.ore_platinum": "Platinum Ore",
+      "block.moreores.hy_tinore": "Dense Tin Ore",
       "block.moreores.ore_aluminum": "Aluminum Ore",
+      "block.moreores.hy_nickel_ore": "Dense Nickel Ore",
+      "block.moreores.hy_iron_ore": "Dense Iron Ore",
       "block.moreores.ore_mana_infused": "Ore Mana Infused Ore",
       "block.moreores.manainfused_block": "Mana Infused Block",
       "block.moreores.ore_copper": "Copper Ore",
-      "block.moreores.silver_block": "Silver Block",
-      "item.moreores.copper_ingot": "Copper Ingot",
-      "item.moreores.iridium_ingot": "Iridium Ingot",
+      "block.moreores.hy_platinum_ore": "Dense Platinum Ore",
       "block.moreores.ore_nickel": "Nickel Ore",
+      "item.moreores.iridium_ingot": "Iridium Ingot",
+      "item.moreores.copper_ingot": "Copper Ingot",
+      "block.moreores.silver_block": "Silver Block",
       "itemGroup.tabmore_ores_hy": "More Ores ",
+      "block.moreores.hy_aluminumore": "Dense Aluminum Ore",
       "item.moreores.tin_ingot": "Tin Ingot",
+      "block.moreores.hy_gold_ore": "Dense Gold Ore",
+      "block.moreores.hy_iridium_ore": "Dense Iridium Ore",
       "block.moreores.nickel_block": "Nickel Block",
       "block.moreores.copper_block": "Copper Block",
       "block.moreores.platinum_block": "Platinum Block",
@@ -825,16 +942,20 @@
       "block.moreores.ore_silver": "Silver ore",
       "block.moreores.tin_block": "Tin Block",
       "block.moreores.lead_block": "Lead Block",
+      "block.moreores.hy_manainfused_ore": "Dense Mana Infused Ore",
       "block.moreores.ore_lead": "Lead Ore",
       "item.moreores.aluminum_ingot": "Aluminum Ingot",
+      "block.moreores.hy_copper_ore": "Dense Copper Ore",
       "block.moreores.iridium_block": "Iridium Block",
       "block.moreores.aluminum_block": "Aluminum Block",
       "item.moreores.nickel_ingot": "Nickel Ingot",
       "item.moreores.mithril_ingot": "Mana Infused Ingot",
       "item.moreores.silver_ingot": "Silver Ingot",
+      "block.moreores.hy_silver_ore": "Dense Silver Ore",
       "item.moreores.lead_ingot": "Lead Ingot",
       "block.moreores.tin_ore": "Tin Ore",
-      "block.moreores.converter": "Converter"
+      "block.moreores.converter": "Converter",
+      "block.moreores.hy_lead_ore": "Dense Lead Ore"
     }
   },
   "foldersRoot": {
@@ -845,6 +966,10 @@
         "children": [
           {
             "name": "blocks",
+            "children": []
+          },
+          {
+            "name": "High yeiling ore",
             "children": []
           }
         ]
