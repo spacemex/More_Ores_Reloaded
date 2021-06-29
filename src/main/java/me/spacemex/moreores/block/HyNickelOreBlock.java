@@ -105,7 +105,7 @@ public class HyNickelOreBlock extends MoreoresModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 3)).range(23)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 3)).range(17)
 					.square().func_242731_b(1);
 			event.getRegistry().register(feature.setRegistryName("hy_nickel_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("moreores:hy_nickel_ore"), configuredFeature);
