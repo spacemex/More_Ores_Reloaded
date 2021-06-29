@@ -1027,10 +1027,10 @@
   "workspaceSettings": {
     "modid": "moreores",
     "modName": "MoreOres Reloaded",
-    "version": "0.1alpha",
+    "version": "1.15 beta",
     "description": "Adds a variety of ores from thermal expansion",
     "author": "Space_Mex",
-    "websiteURL": "https://",
+    "websiteURL": "https://bit.ly/3hgDkJu",
     "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
