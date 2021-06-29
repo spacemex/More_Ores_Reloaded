@@ -1,0 +1,37 @@
+{
+  "group": "moreores",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "moreores:silver_ingot"
+    },
+    {
+      "item": "moreores:silver_ingot"
+    },
+    {
+      "item": "moreores:silver_ingot"
+    },
+    {
+      "item": "moreores:silver_ingot"
+    },
+    {
+      "item": "moreores:silver_ingot"
+    },
+    {
+      "item": "moreores:silver_ingot"
+    },
+    {
+      "item": "moreores:silver_ingot"
+    },
+    {
+      "item": "moreores:silver_ingot"
+    },
+    {
+      "item": "moreores:silver_ingot"
+    }
+  ],
+  "result": {
+    "item": "moreores:silver_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "group": "moreore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "type": "forge:ore_dict",
+      "ore": "ingotSilver"
+    },
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "ingotSilver"
+    },
+    "2": {
+      "type": "forge:ore_dict",
+      "ore": "ingotSilver"
+    },
+    "3": {
+      "type": "forge:ore_dict",
+      "ore": "ingotSilver"
+    },
+    "4": {
+      "type": "forge:ore_dict",
+      "ore": "ingotSilver"
+    },
+    "5": {
+      "type": "forge:ore_dict",
+      "ore": "ingotSilver"
+    },
+    "6": {
+      "type": "forge:ore_dict",
+      "ore": "ingotSilver"
+    },
+    "7": {
+      "type": "forge:ore_dict",
+      "ore": "ingotSilver"
+    },
+    "8": {
+      "type": "forge:ore_dict",
+      "ore": "ingotSilver"
+    }
+  },
+  "result": {
+    "item": "moreore:blocksilver",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "moreores",
+  "type": "minecraft:blasting",
+  "experience": 0.7,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "moreores:iridium_ore"
+  },
+  "result": {
+    "item": "moreores:iridium_ingot"
+  }
+}

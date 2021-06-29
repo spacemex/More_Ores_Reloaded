@@ -1,0 +1,12 @@
+{
+  "group": "moreores",
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "moreores:ore_lead"
+  },
+  "result": {
+    "item": "moreores:lead_ingot"
+  }
+}

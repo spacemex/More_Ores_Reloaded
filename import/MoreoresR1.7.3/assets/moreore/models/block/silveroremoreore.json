@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "moreore:blocks/ore_silver",
+    "up": "moreore:blocks/ore_silver",
+    "north": "moreore:blocks/ore_silver",
+    "east": "moreore:blocks/ore_silver",
+    "south": "moreore:blocks/ore_silver",
+    "west": "moreore:blocks/ore_silver",
+    "particle": "moreore:blocks/ore_silver"
+  }
+}

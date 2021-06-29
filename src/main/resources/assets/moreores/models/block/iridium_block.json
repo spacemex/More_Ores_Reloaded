@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "moreores:blocks/block_iridium",
+    "particle": "moreores:blocks/block_iridium"
+  }
+}

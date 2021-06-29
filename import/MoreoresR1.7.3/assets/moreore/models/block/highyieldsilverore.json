@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "moreore:blocks/highyieldsilver",
+    "up": "moreore:blocks/highyieldsilver",
+    "north": "moreore:blocks/highyieldsilver",
+    "east": "moreore:blocks/highyieldsilver",
+    "south": "moreore:blocks/highyieldsilver",
+    "west": "moreore:blocks/highyieldsilver",
+    "particle": "moreore:blocks/highyieldsilver"
+  }
+}

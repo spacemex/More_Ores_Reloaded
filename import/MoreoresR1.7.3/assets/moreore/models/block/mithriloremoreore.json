@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "moreore:blocks/ore_mithril",
+    "up": "moreore:blocks/ore_mithril",
+    "north": "moreore:blocks/ore_mithril",
+    "east": "moreore:blocks/ore_mithril",
+    "south": "moreore:blocks/ore_mithril",
+    "west": "moreore:blocks/ore_mithril",
+    "particle": "moreore:blocks/ore_mithril"
+  }
+}

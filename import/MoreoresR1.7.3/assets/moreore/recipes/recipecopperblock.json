@@ -1,0 +1,51 @@
+{
+  "group": "moreore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "type": "forge:ore_dict",
+      "ore": "ingotCopper"
+    },
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "ingotCopper"
+    },
+    "2": {
+      "type": "forge:ore_dict",
+      "ore": "ingotCopper"
+    },
+    "3": {
+      "type": "forge:ore_dict",
+      "ore": "ingotCopper"
+    },
+    "4": {
+      "type": "forge:ore_dict",
+      "ore": "ingotCopper"
+    },
+    "5": {
+      "type": "forge:ore_dict",
+      "ore": "ingotCopper"
+    },
+    "6": {
+      "type": "forge:ore_dict",
+      "ore": "ingotCopper"
+    },
+    "7": {
+      "type": "forge:ore_dict",
+      "ore": "ingotCopper"
+    },
+    "8": {
+      "type": "forge:ore_dict",
+      "ore": "ingotCopper"
+    }
+  },
+  "result": {
+    "item": "moreore:blockcopper",
+    "count": 1
+  }
+}

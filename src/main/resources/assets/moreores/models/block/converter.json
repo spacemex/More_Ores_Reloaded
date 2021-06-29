@@ -1,0 +1,11 @@
+{
+  "parent": "moreores:custom/yay",
+  "textures": {
+    "all": "moreores:blocks/bricks",
+    "particle": "moreores:blocks/bricks",
+    "bricks": "moreores:blocks/bricks",
+    "red_wool": "moreores:blocks/red_wool",
+    "cauldron_side": "moreores:blocks/cauldron_side",
+    "blackstone": "moreores:blocks/blackstone"
+  }
+}

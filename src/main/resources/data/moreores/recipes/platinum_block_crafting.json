@@ -1,0 +1,37 @@
+{
+  "group": "moreores",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "moreores:platinum_ingot"
+    },
+    {
+      "item": "moreores:platinum_ingot"
+    },
+    {
+      "item": "moreores:platinum_ingot"
+    },
+    {
+      "item": "moreores:platinum_ingot"
+    },
+    {
+      "item": "moreores:platinum_ingot"
+    },
+    {
+      "item": "moreores:platinum_ingot"
+    },
+    {
+      "item": "moreores:platinum_ingot"
+    },
+    {
+      "item": "moreores:platinum_ingot"
+    },
+    {
+      "item": "moreores:platinum_ingot"
+    }
+  ],
+  "result": {
+    "item": "moreores:platinum_block",
+    "count": 1
+  }
+}

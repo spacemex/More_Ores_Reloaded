@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "moreore:blocks/block_iridium",
+    "up": "moreore:blocks/block_iridium",
+    "north": "moreore:blocks/block_iridium",
+    "east": "moreore:blocks/block_iridium",
+    "south": "moreore:blocks/block_iridium",
+    "west": "moreore:blocks/block_iridium",
+    "particle": "moreore:blocks/block_iridium"
+  }
+}

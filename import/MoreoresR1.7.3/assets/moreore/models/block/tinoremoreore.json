@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "moreore:blocks/ore_tin",
+    "up": "moreore:blocks/ore_tin",
+    "north": "moreore:blocks/ore_tin",
+    "east": "moreore:blocks/ore_tin",
+    "south": "moreore:blocks/ore_tin",
+    "west": "moreore:blocks/ore_tin",
+    "particle": "moreore:blocks/ore_tin"
+  }
+}

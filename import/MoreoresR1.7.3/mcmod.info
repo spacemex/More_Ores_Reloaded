@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "moreore",
+    "name": "More Ore|High yielding ores",
+    "description": "Moreores Adds High yielding variants of ores ",
+    "version": "R1.0",
+    "credits": "Space_Mex",
+    "logoFile": "",
+    "mcversion": "1.12.2",
+    "url": "https://www.curseforge.com/minecraft/mc-mods/more-ores-high-yield-ores",
+    "updateUrl": "",
+    "authorList": [
+      "Space_Mex"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

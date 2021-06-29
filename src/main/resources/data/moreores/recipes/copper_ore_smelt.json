@@ -1,0 +1,12 @@
+{
+  "group": "moreores",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "moreores:ore_copper"
+  },
+  "result": {
+    "item": "moreores:copper_ingot"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "group": "moreores",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "moreores:aluminum_ingot"
+    },
+    {
+      "item": "moreores:aluminum_ingot"
+    },
+    {
+      "item": "moreores:aluminum_ingot"
+    },
+    {
+      "item": "moreores:aluminum_ingot"
+    },
+    {
+      "item": "moreores:aluminum_ingot"
+    },
+    {
+      "item": "moreores:aluminum_ingot"
+    },
+    {
+      "item": "moreores:aluminum_ingot"
+    },
+    {
+      "item": "moreores:aluminum_ingot"
+    },
+    {
+      "item": "moreores:aluminum_ingot"
+    }
+  ],
+  "result": {
+    "item": "moreores:aluminum_block",
+    "count": 1
+  }
+}

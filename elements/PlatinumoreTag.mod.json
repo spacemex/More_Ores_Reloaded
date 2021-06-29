@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:OrePlatinum"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "ores/platinum",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "group": "moreore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "type": "forge:ore_dict",
+      "ore": "ingotMithril"
+    },
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "ingotMithril"
+    },
+    "2": {
+      "type": "forge:ore_dict",
+      "ore": "ingotMithril"
+    },
+    "3": {
+      "type": "forge:ore_dict",
+      "ore": "ingotMithril"
+    },
+    "4": {
+      "type": "forge:ore_dict",
+      "ore": "ingotMithril"
+    },
+    "5": {
+      "type": "forge:ore_dict",
+      "ore": "ingotMithril"
+    },
+    "6": {
+      "type": "forge:ore_dict",
+      "ore": "ingotMithril"
+    },
+    "7": {
+      "type": "forge:ore_dict",
+      "ore": "ingotMithril"
+    },
+    "8": {
+      "type": "forge:ore_dict",
+      "ore": "ingotMithril"
+    }
+  },
+  "result": {
+    "item": "moreore:blockmithril",
+    "count": 1
+  }
+}

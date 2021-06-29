@@ -1,0 +1,37 @@
+{
+  "group": "moreores",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "moreores:iridium_ingot"
+    },
+    {
+      "item": "moreores:iridium_ingot"
+    },
+    {
+      "item": "moreores:iridium_ingot"
+    },
+    {
+      "item": "moreores:iridium_ingot"
+    },
+    {
+      "item": "moreores:iridium_ingot"
+    },
+    {
+      "item": "moreores:iridium_ingot"
+    },
+    {
+      "item": "moreores:iridium_ingot"
+    },
+    {
+      "item": "moreores:iridium_ingot"
+    },
+    {
+      "item": "moreores:iridium_ingot"
+    }
+  ],
+  "result": {
+    "item": "moreores:iridium_block",
+    "count": 1
+  }
+}

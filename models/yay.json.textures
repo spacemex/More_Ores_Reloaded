@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "bricks": "bricks",
+        "red_wool": "red_wool",
+        "cauldron_side": "cauldron_side",
+        "blackstone": "blackstone"
+      },
+      "name": "default"
+    }
+  }
+}

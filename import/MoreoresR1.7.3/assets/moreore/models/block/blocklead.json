@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "moreore:blocks/block_lead",
+    "up": "moreore:blocks/block_lead",
+    "north": "moreore:blocks/block_lead",
+    "east": "moreore:blocks/block_lead",
+    "south": "moreore:blocks/block_lead",
+    "west": "moreore:blocks/block_lead",
+    "particle": "moreore:blocks/block_lead"
+  }
+}

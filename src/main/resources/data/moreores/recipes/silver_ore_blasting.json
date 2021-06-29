@@ -1,0 +1,12 @@
+{
+  "group": "moreores",
+  "type": "minecraft:blasting",
+  "experience": 0.7,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "moreores:ore_silver"
+  },
+  "result": {
+    "item": "moreores:silver_ingot"
+  }
+}

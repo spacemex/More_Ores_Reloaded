@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "moreore:blocks/highyieldalum",
+    "up": "moreore:blocks/highyieldalum",
+    "north": "moreore:blocks/highyieldalum",
+    "east": "moreore:blocks/highyieldalum",
+    "south": "moreore:blocks/highyieldalum",
+    "west": "moreore:blocks/highyieldalum",
+    "particle": "moreore:blocks/highyieldalum"
+  }
+}

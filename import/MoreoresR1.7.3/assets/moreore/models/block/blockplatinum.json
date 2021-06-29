@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "moreore:blocks/block_platinum",
+    "up": "moreore:blocks/block_platinum",
+    "north": "moreore:blocks/block_platinum",
+    "east": "moreore:blocks/block_platinum",
+    "south": "moreore:blocks/block_platinum",
+    "west": "moreore:blocks/block_platinum",
+    "particle": "moreore:blocks/block_platinum"
+  }
+}

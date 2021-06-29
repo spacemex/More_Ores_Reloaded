@@ -1,0 +1,51 @@
+{
+  "group": "moreore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "type": "forge:ore_dict",
+      "ore": "ingotPlatinum"
+    },
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "ingotPlatinum"
+    },
+    "2": {
+      "type": "forge:ore_dict",
+      "ore": "ingotPlatinum"
+    },
+    "3": {
+      "type": "forge:ore_dict",
+      "ore": "ingotPlatinum"
+    },
+    "4": {
+      "type": "forge:ore_dict",
+      "ore": "ingotPlatinum"
+    },
+    "5": {
+      "type": "forge:ore_dict",
+      "ore": "ingotPlatinum"
+    },
+    "6": {
+      "type": "forge:ore_dict",
+      "ore": "ingotPlatinum"
+    },
+    "7": {
+      "type": "forge:ore_dict",
+      "ore": "ingotPlatinum"
+    },
+    "8": {
+      "type": "forge:ore_dict",
+      "ore": "ingotPlatinum"
+    }
+  },
+  "result": {
+    "item": "moreore:blockplatinum",
+    "count": 1
+  }
+}

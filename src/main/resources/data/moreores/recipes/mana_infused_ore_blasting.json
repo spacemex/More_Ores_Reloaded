@@ -1,0 +1,12 @@
+{
+  "group": "moreores",
+  "type": "minecraft:blasting",
+  "experience": 0.7,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "moreores:ore_mana_infused"
+  },
+  "result": {
+    "item": "moreores:mithril_ingot"
+  }
+}

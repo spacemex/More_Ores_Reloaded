@@ -1,0 +1,37 @@
+{
+  "group": "moreores",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "moreores:copper_ingot"
+    },
+    {
+      "item": "moreores:copper_ingot"
+    },
+    {
+      "item": "moreores:copper_ingot"
+    },
+    {
+      "item": "moreores:copper_ingot"
+    },
+    {
+      "item": "moreores:copper_ingot"
+    },
+    {
+      "item": "moreores:copper_ingot"
+    },
+    {
+      "item": "moreores:copper_ingot"
+    },
+    {
+      "item": "moreores:copper_ingot"
+    },
+    {
+      "item": "moreores:copper_ingot"
+    }
+  ],
+  "result": {
+    "item": "moreores:copper_block",
+    "count": 1
+  }
+}

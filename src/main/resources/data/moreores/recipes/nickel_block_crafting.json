@@ -1,0 +1,37 @@
+{
+  "group": "moreores",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "moreores:nickel_ingot"
+    },
+    {
+      "item": "moreores:nickel_ingot"
+    },
+    {
+      "item": "moreores:nickel_ingot"
+    },
+    {
+      "item": "moreores:nickel_ingot"
+    },
+    {
+      "item": "moreores:nickel_ingot"
+    },
+    {
+      "item": "moreores:nickel_ingot"
+    },
+    {
+      "item": "moreores:nickel_ingot"
+    },
+    {
+      "item": "moreores:nickel_ingot"
+    },
+    {
+      "item": "moreores:nickel_ingot"
+    }
+  ],
+  "result": {
+    "item": "moreores:nickel_block",
+    "count": 1
+  }
+}

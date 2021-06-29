@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "More Ores ",
+    "icon": {
+      "value": "CUSTOM:OreAluminum"
+    },
+    "showSearch": true
+  }
+}

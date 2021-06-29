@@ -1,0 +1,1444 @@
+{
+  "me/space_mex/moreore/ClientProxyMoreOreHighyieldingores": {
+    "name": "me/space_mex/moreore/ClientProxyMoreOreHighyieldingores",
+    "interfaces": [
+      "me/space_mex/moreore/IProxyMoreOreHighyieldingores"
+    ]
+  },
+  "me/space_mex/moreore/ElementsMoreOreHighyieldingores": {
+    "name": "me/space_mex/moreore/ElementsMoreOreHighyieldingores",
+    "interfaces": [
+      "net/minecraftforge/fml/common/IFuelHandler",
+      "net/minecraftforge/fml/common/IWorldGenerator"
+    ],
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPlayerLoggedIn(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedInEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPlayerChangedDimension(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerChangedDimensionEvent;)V"
+      }
+    ]
+  },
+  "me/space_mex/moreore/ElementsMoreOreHighyieldingores$GuiHandler": {
+    "name": "me/space_mex/moreore/ElementsMoreOreHighyieldingores$GuiHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/IGuiHandler"
+    ]
+  },
+  "me/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement": {
+    "name": "me/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement",
+    "interfaces": [
+      "java/lang/Comparable"
+    ]
+  },
+  "me/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag": {
+    "name": "me/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "me/space_mex/moreore/MoreOreHighyieldingores": {
+    "name": "me/space_mex/moreore/MoreOreHighyieldingores",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "me/space_mex/moreore/MoreOreHighyieldingores",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12.2]"
+          },
+          "modid": {
+            "value": "moreore"
+          },
+          "version": {
+            "value": "R1.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/SidedProxy;",
+        "target": "proxy",
+        "values": {
+          "clientSide": {
+            "value": "me.space_mex.moreore.ClientProxyMoreOreHighyieldingores"
+          },
+          "serverSide": {
+            "value": "me.space_mex.moreore.ServerProxyMoreOreHighyieldingores"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$Instance;",
+        "target": "instance",
+        "value": {
+          "value": "moreore"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "serverLoad(Lnet/minecraftforge/fml/common/event/FMLServerStartingEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerBiomes(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerEntities(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerPotions(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerSounds(Lnet/minecraftforge/event/RegistryEvent$Register;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V"
+      }
+    ]
+  },
+  "me/space_mex/moreore/MoreOreHighyieldingoresVariables$WorldSavedDataSyncMessage": {
+    "name": "me/space_mex/moreore/MoreOreHighyieldingoresVariables$WorldSavedDataSyncMessage",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessage"
+    ]
+  },
+  "me/space_mex/moreore/MoreOreHighyieldingoresVariables$WorldSavedDataSyncMessageHandler": {
+    "name": "me/space_mex/moreore/MoreOreHighyieldingoresVariables$WorldSavedDataSyncMessageHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/network/simpleimpl/IMessageHandler"
+    ]
+  },
+  "me/space_mex/moreore/ServerProxyMoreOreHighyieldingores": {
+    "name": "me/space_mex/moreore/ServerProxyMoreOreHighyieldingores",
+    "interfaces": [
+      "me/space_mex/moreore/IProxyMoreOreHighyieldingores"
+    ]
+  },
+  "me/space_mex/moreore/block/BlockAluminumoremoreOre": {
+    "name": "me/space_mex/moreore/block/BlockAluminumoremoreOre",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockAluminumoremoreOre"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:aluminumoremoreore"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockAluminumoremoreOre$1": {
+    "name": "me/space_mex/moreore/block/BlockAluminumoremoreOre$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "me/space_mex/moreore/block/BlockBlockAluminum": {
+    "name": "me/space_mex/moreore/block/BlockBlockAluminum",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockBlockAluminum"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:blockaluminum"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockBlockCopper": {
+    "name": "me/space_mex/moreore/block/BlockBlockCopper",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockBlockCopper"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:blockcopper"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockBlockIridium": {
+    "name": "me/space_mex/moreore/block/BlockBlockIridium",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockBlockIridium"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:blockiridium"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockBlockLead": {
+    "name": "me/space_mex/moreore/block/BlockBlockLead",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockBlockLead"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:blocklead"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockBlockMithril": {
+    "name": "me/space_mex/moreore/block/BlockBlockMithril",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockBlockMithril"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:blockmithril"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockBlockNickel": {
+    "name": "me/space_mex/moreore/block/BlockBlockNickel",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockBlockNickel"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:blocknickel"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockBlockPlatinum": {
+    "name": "me/space_mex/moreore/block/BlockBlockPlatinum",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockBlockPlatinum"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:blockplatinum"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockBlockSilver": {
+    "name": "me/space_mex/moreore/block/BlockBlockSilver",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockBlockSilver"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:blocksilver"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockBlockTin": {
+    "name": "me/space_mex/moreore/block/BlockBlockTin",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockBlockTin"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:blocktin"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockCopperoremoreOre": {
+    "name": "me/space_mex/moreore/block/BlockCopperoremoreOre",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockCopperoremoreOre"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:copperoremoreore"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockCopperoremoreOre$1": {
+    "name": "me/space_mex/moreore/block/BlockCopperoremoreOre$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldGoldore": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldGoldore",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockHighyieldGoldore"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:highyieldgoldore"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldGoldore$1": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldGoldore$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldIronore": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldIronore",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockHighyieldIronore"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:highyieldironore"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldIronore$1": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldIronore$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldcaluminumore": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldcaluminumore",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockHighyieldcaluminumore"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:highyieldcaluminumore"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldcaluminumore$1": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldcaluminumore$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldcopperore": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldcopperore",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockHighyieldcopperore"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:highyieldcopperore"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldcopperore$1": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldcopperore$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldiridiumore": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldiridiumore",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockHighyieldiridiumore"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:highyieldiridiumore"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldiridiumore$1": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldiridiumore$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldlead": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldlead",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockHighyieldlead"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:highyieldlead"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldlead$1": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldlead$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldmithrilore": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldmithrilore",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockHighyieldmithrilore"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:highyieldmithrilore"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldmithrilore$1": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldmithrilore$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldnickelore": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldnickelore",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockHighyieldnickelore"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:highyieldnickelore"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldnickelore$1": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldnickelore$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldplatore": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldplatore",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockHighyieldplatore"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:highyieldplatore"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldplatore$1": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldplatore$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldsilverore": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldsilverore",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockHighyieldsilverore"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:highyieldsilverore"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldsilverore$1": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldsilverore$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldtinore": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldtinore",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockHighyieldtinore"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:highyieldtinore"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockHighyieldtinore$1": {
+    "name": "me/space_mex/moreore/block/BlockHighyieldtinore$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "me/space_mex/moreore/block/BlockIridiumoremoreore": {
+    "name": "me/space_mex/moreore/block/BlockIridiumoremoreore",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockIridiumoremoreore"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:iridiumoremoreore"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockIridiumoremoreore$1": {
+    "name": "me/space_mex/moreore/block/BlockIridiumoremoreore$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "me/space_mex/moreore/block/BlockLeadoremoreOre": {
+    "name": "me/space_mex/moreore/block/BlockLeadoremoreOre",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockLeadoremoreOre"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:leadoremoreore"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockLeadoremoreOre$1": {
+    "name": "me/space_mex/moreore/block/BlockLeadoremoreOre$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "me/space_mex/moreore/block/BlockMithriloremoreOre": {
+    "name": "me/space_mex/moreore/block/BlockMithriloremoreOre",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockMithriloremoreOre"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:mithriloremoreore"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockMithriloremoreOre$1": {
+    "name": "me/space_mex/moreore/block/BlockMithriloremoreOre$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "me/space_mex/moreore/block/BlockNickeloremoreOre": {
+    "name": "me/space_mex/moreore/block/BlockNickeloremoreOre",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockNickeloremoreOre"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:nickeloremoreore"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockNickeloremoreOre$1": {
+    "name": "me/space_mex/moreore/block/BlockNickeloremoreOre$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "me/space_mex/moreore/block/BlockPlatinumoremoreOre": {
+    "name": "me/space_mex/moreore/block/BlockPlatinumoremoreOre",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockPlatinumoremoreOre"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:platinumoremoreore"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockPlatinumoremoreOre$1": {
+    "name": "me/space_mex/moreore/block/BlockPlatinumoremoreOre$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "me/space_mex/moreore/block/BlockSilveroremoreOre": {
+    "name": "me/space_mex/moreore/block/BlockSilveroremoreOre",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockSilveroremoreOre"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:silveroremoreore"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockSilveroremoreOre$1": {
+    "name": "me/space_mex/moreore/block/BlockSilveroremoreOre$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "me/space_mex/moreore/block/BlockTinoremoreOre": {
+    "name": "me/space_mex/moreore/block/BlockTinoremoreOre",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/block/BlockTinoremoreOre"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:tinoremoreore"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/block/BlockTinoremoreOre$1": {
+    "name": "me/space_mex/moreore/block/BlockTinoremoreOre$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "me/space_mex/moreore/creativetab/TabMoreores": {
+    "name": "me/space_mex/moreore/creativetab/TabMoreores",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/creativetab/TabMoreores"
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/ItemAluminumingot": {
+    "name": "me/space_mex/moreore/item/ItemAluminumingot",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/ItemAluminumingot"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:aluminumingot"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/ItemCopperIngot": {
+    "name": "me/space_mex/moreore/item/ItemCopperIngot",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/ItemCopperIngot"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:copperingot"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/ItemIridiumingot": {
+    "name": "me/space_mex/moreore/item/ItemIridiumingot",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/ItemIridiumingot"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:iridiumingot"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/ItemLeadingot": {
+    "name": "me/space_mex/moreore/item/ItemLeadingot",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/ItemLeadingot"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:leadingot"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/ItemMithrilingot": {
+    "name": "me/space_mex/moreore/item/ItemMithrilingot",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/ItemMithrilingot"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:mithrilingot"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/ItemNickelingot": {
+    "name": "me/space_mex/moreore/item/ItemNickelingot",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/ItemNickelingot"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:nickelingot"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/ItemPlatinumingot": {
+    "name": "me/space_mex/moreore/item/ItemPlatinumingot",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/ItemPlatinumingot"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:platinumingot"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/ItemSilveringot": {
+    "name": "me/space_mex/moreore/item/ItemSilveringot",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/ItemSilveringot"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:silveringot"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/ItemTiningot": {
+    "name": "me/space_mex/moreore/item/ItemTiningot",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/ItemTiningot"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/registry/GameRegistry$ObjectHolder;",
+        "target": "block",
+        "value": {
+          "value": "moreore:tiningot"
+        }
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/crafting/RecipeAluminumOreSmelt": {
+    "name": "me/space_mex/moreore/item/crafting/RecipeAluminumOreSmelt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/crafting/RecipeAluminumOreSmelt"
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/crafting/RecipeCopperOreSmelt": {
+    "name": "me/space_mex/moreore/item/crafting/RecipeCopperOreSmelt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/crafting/RecipeCopperOreSmelt"
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/crafting/RecipeHyAluminumSmelt": {
+    "name": "me/space_mex/moreore/item/crafting/RecipeHyAluminumSmelt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/crafting/RecipeHyAluminumSmelt"
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/crafting/RecipeHyCopperSmelt": {
+    "name": "me/space_mex/moreore/item/crafting/RecipeHyCopperSmelt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/crafting/RecipeHyCopperSmelt"
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/crafting/RecipeHyGoldSmelt": {
+    "name": "me/space_mex/moreore/item/crafting/RecipeHyGoldSmelt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/crafting/RecipeHyGoldSmelt"
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/crafting/RecipeHyIridumSmelt": {
+    "name": "me/space_mex/moreore/item/crafting/RecipeHyIridumSmelt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/crafting/RecipeHyIridumSmelt"
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/crafting/RecipeHyIronSmelt": {
+    "name": "me/space_mex/moreore/item/crafting/RecipeHyIronSmelt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/crafting/RecipeHyIronSmelt"
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/crafting/RecipeHyLeadSmelt": {
+    "name": "me/space_mex/moreore/item/crafting/RecipeHyLeadSmelt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/crafting/RecipeHyLeadSmelt"
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/crafting/RecipeHyMithrilSmelt": {
+    "name": "me/space_mex/moreore/item/crafting/RecipeHyMithrilSmelt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/crafting/RecipeHyMithrilSmelt"
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/crafting/RecipeHyNickelSmelt": {
+    "name": "me/space_mex/moreore/item/crafting/RecipeHyNickelSmelt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/crafting/RecipeHyNickelSmelt"
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/crafting/RecipeHyPlatinumSmelt": {
+    "name": "me/space_mex/moreore/item/crafting/RecipeHyPlatinumSmelt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/crafting/RecipeHyPlatinumSmelt"
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/crafting/RecipeHySliverSmelt": {
+    "name": "me/space_mex/moreore/item/crafting/RecipeHySliverSmelt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/crafting/RecipeHySliverSmelt"
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/crafting/RecipeHyTinSmelt": {
+    "name": "me/space_mex/moreore/item/crafting/RecipeHyTinSmelt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/crafting/RecipeHyTinSmelt"
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/crafting/RecipeIriduimOreSmelt": {
+    "name": "me/space_mex/moreore/item/crafting/RecipeIriduimOreSmelt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/crafting/RecipeIriduimOreSmelt"
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/crafting/RecipeLeadOreSmelt": {
+    "name": "me/space_mex/moreore/item/crafting/RecipeLeadOreSmelt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/crafting/RecipeLeadOreSmelt"
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/crafting/RecipeMithrilOreSmelt": {
+    "name": "me/space_mex/moreore/item/crafting/RecipeMithrilOreSmelt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/crafting/RecipeMithrilOreSmelt"
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/crafting/RecipeNickelOreSmelt": {
+    "name": "me/space_mex/moreore/item/crafting/RecipeNickelOreSmelt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/crafting/RecipeNickelOreSmelt"
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/crafting/RecipePlatinumOreSmelt": {
+    "name": "me/space_mex/moreore/item/crafting/RecipePlatinumOreSmelt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/crafting/RecipePlatinumOreSmelt"
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/crafting/RecipeSilverOreSmelt": {
+    "name": "me/space_mex/moreore/item/crafting/RecipeSilverOreSmelt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/crafting/RecipeSilverOreSmelt"
+      }
+    ]
+  },
+  "me/space_mex/moreore/item/crafting/RecipeTinOreSmelt": {
+    "name": "me/space_mex/moreore/item/crafting/RecipeTinOreSmelt",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/item/crafting/RecipeTinOreSmelt"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictAlumingottag": {
+    "name": "me/space_mex/moreore/util/OreDictAlumingottag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictAlumingottag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictAlumoretag": {
+    "name": "me/space_mex/moreore/util/OreDictAlumoretag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictAlumoretag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictBlockAluminumtag": {
+    "name": "me/space_mex/moreore/util/OreDictBlockAluminumtag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictBlockAluminumtag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictBlockCoppertag": {
+    "name": "me/space_mex/moreore/util/OreDictBlockCoppertag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictBlockCoppertag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictBlockLeadtag": {
+    "name": "me/space_mex/moreore/util/OreDictBlockLeadtag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictBlockLeadtag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictBlockMithriltag": {
+    "name": "me/space_mex/moreore/util/OreDictBlockMithriltag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictBlockMithriltag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictBlockNickeltag": {
+    "name": "me/space_mex/moreore/util/OreDictBlockNickeltag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictBlockNickeltag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictBlockPlatinumtag": {
+    "name": "me/space_mex/moreore/util/OreDictBlockPlatinumtag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictBlockPlatinumtag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictBlockSilvertag": {
+    "name": "me/space_mex/moreore/util/OreDictBlockSilvertag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictBlockSilvertag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictBlockTintag": {
+    "name": "me/space_mex/moreore/util/OreDictBlockTintag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictBlockTintag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictBlockiridiumtag": {
+    "name": "me/space_mex/moreore/util/OreDictBlockiridiumtag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictBlockiridiumtag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictCopperIngottag": {
+    "name": "me/space_mex/moreore/util/OreDictCopperIngottag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictCopperIngottag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictCopperoretag": {
+    "name": "me/space_mex/moreore/util/OreDictCopperoretag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictCopperoretag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictIridiumingottag": {
+    "name": "me/space_mex/moreore/util/OreDictIridiumingottag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictIridiumingottag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictIridiumoretag": {
+    "name": "me/space_mex/moreore/util/OreDictIridiumoretag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictIridiumoretag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictLeadingottag": {
+    "name": "me/space_mex/moreore/util/OreDictLeadingottag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictLeadingottag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictLeadoretag": {
+    "name": "me/space_mex/moreore/util/OreDictLeadoretag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictLeadoretag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictMithrilingottag": {
+    "name": "me/space_mex/moreore/util/OreDictMithrilingottag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictMithrilingottag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictMithriloretag": {
+    "name": "me/space_mex/moreore/util/OreDictMithriloretag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictMithriloretag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictNickelingottag": {
+    "name": "me/space_mex/moreore/util/OreDictNickelingottag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictNickelingottag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictNickeloretag": {
+    "name": "me/space_mex/moreore/util/OreDictNickeloretag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictNickeloretag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictPlatingottag": {
+    "name": "me/space_mex/moreore/util/OreDictPlatingottag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictPlatingottag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictPlatoretag": {
+    "name": "me/space_mex/moreore/util/OreDictPlatoretag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictPlatoretag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictSilveringottag": {
+    "name": "me/space_mex/moreore/util/OreDictSilveringottag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictSilveringottag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictSilveroretag": {
+    "name": "me/space_mex/moreore/util/OreDictSilveroretag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictSilveroretag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictTiningottag": {
+    "name": "me/space_mex/moreore/util/OreDictTiningottag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictTiningottag"
+      }
+    ]
+  },
+  "me/space_mex/moreore/util/OreDictTinoretag": {
+    "name": "me/space_mex/moreore/util/OreDictTinoretag",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lme/space_mex/moreore/ElementsMoreOreHighyieldingores$ModElement$Tag;",
+        "target": "me/space_mex/moreore/util/OreDictTinoretag"
+      }
+    ]
+  }
+}

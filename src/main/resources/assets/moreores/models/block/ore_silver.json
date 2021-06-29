@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "moreores:blocks/ore_silver",
+    "particle": "moreores:blocks/ore_silver"
+  }
+}

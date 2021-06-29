@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "moreore:blocks/highyieldnickel",
+    "up": "moreore:blocks/highyieldnickel",
+    "north": "moreore:blocks/highyieldnickel",
+    "east": "moreore:blocks/highyieldnickel",
+    "south": "moreore:blocks/highyieldnickel",
+    "west": "moreore:blocks/highyieldnickel",
+    "particle": "moreore:blocks/highyieldnickel"
+  }
+}

@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="moreores"
+version="0.1alpha"
+displayName="MoreOres Reloaded"
+credits="Cofh (Textures) Space_Mex(Mod Creator)"
+displayURL="https://mcreator.net"
+authors="Space_Mex"
+description='''
+Adds a variety of ores from thermal expansion
+'''
+
+[[dependencies.moreores]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

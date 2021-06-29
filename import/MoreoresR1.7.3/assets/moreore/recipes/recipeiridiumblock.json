@@ -1,0 +1,51 @@
+{
+  "group": "moreore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIridium"
+    },
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIridium"
+    },
+    "2": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIridium"
+    },
+    "3": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIridium"
+    },
+    "4": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIridium"
+    },
+    "5": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIridium"
+    },
+    "6": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIridium"
+    },
+    "7": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIridium"
+    },
+    "8": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIridium"
+    }
+  },
+  "result": {
+    "item": "moreore:blockiridium",
+    "count": 1
+  }
+}

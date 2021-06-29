@@ -1,0 +1,51 @@
+{
+  "group": "moreore",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "type": "forge:ore_dict",
+      "ore": "ingotTin"
+    },
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "ingotTin"
+    },
+    "2": {
+      "type": "forge:ore_dict",
+      "ore": "ingotTin"
+    },
+    "3": {
+      "type": "forge:ore_dict",
+      "ore": "ingotTin"
+    },
+    "4": {
+      "type": "forge:ore_dict",
+      "ore": "ingotTin"
+    },
+    "5": {
+      "type": "forge:ore_dict",
+      "ore": "ingotTin"
+    },
+    "6": {
+      "type": "forge:ore_dict",
+      "ore": "ingotTin"
+    },
+    "7": {
+      "type": "forge:ore_dict",
+      "ore": "ingotTin"
+    },
+    "8": {
+      "type": "forge:ore_dict",
+      "ore": "ingotTin"
+    }
+  },
+  "result": {
+    "item": "moreore:blocktin",
+    "count": 1
+  }
+}
